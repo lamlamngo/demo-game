@@ -1,5 +1,5 @@
-var GAME_WIDTH= document.getElementById("parentDiv").clientWidth;
-var GAME_HEIGHT= document.getElementById("parentDiv").clientHeight;
+var GAME_WIDTH= document.getElementById("container").clientWidth;
+var GAME_HEIGHT= document.getElementById("container").clientHeight;
 
 var state = {
   init: init,
