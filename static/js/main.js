@@ -1,5 +1,5 @@
-var GAME_WIDTH=480;
-var GAME_HEIGHT=640;
+var GAME_WIDTH= window.innerWidth * window.devicePixelRatio;
+var GAME_HEIGHT= window.innerHeight * window.devicePixelRatio;
 
 var state = {
   init: init,
